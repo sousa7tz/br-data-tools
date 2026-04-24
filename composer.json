@@ -1,0 +1,23 @@
+{
+    "name": "sousa7tz/br-data-tools",
+    "description": "A clean PHP library to sanitize, validate, format and mask Brazilian CPF and CNPJ documents.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BrDataTools\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BrDataTools\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "minimum-stability": "stable"
+}
